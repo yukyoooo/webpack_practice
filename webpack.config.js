@@ -62,6 +62,7 @@ module.exports = {
                         options: {
                             esModule: false,
                             name: 'images/[name].[ext]',
+                            publicPath: '/',
                         },
                     },
                     {
@@ -93,7 +94,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: './stylecheets/main.css',
+            filename: './stylesheets/main.css',
         }),
         new HtmlWebpackPlugin({
             template: './src/templates/index.pug',
