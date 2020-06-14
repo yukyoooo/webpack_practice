@@ -14,6 +14,15 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(ts|tsx)/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: 'ts-loader',
+                    },
+                ],
+            },
+            {
                 test: /\.js/,
                 exclude: /node_modules/,
                 use: [
@@ -22,6 +31,7 @@ module.exports = {
                         options:{
                             presets: [
                                 ['@babel/preset-env' , { 'targets': '> 0.25%, not dead'}],
+                                '@babel/preset-react',
                             ],
                         },
                     },
@@ -45,7 +55,7 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|jpg)/,
+                test: /\.(png|jpg|jpeg)/,
                 use: [
                     {
                         loader: 'file-loader',
@@ -53,6 +63,15 @@ module.exports = {
                             esModule: false,
                             name: 'images/[name].[ext]',
                         },
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            mozjpeg: {
+                                progressive: true,
+                                quality: 65,
+                            }
+                        }
                     },
                 ],
             },
