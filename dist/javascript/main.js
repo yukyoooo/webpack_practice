@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my.js */ \"./src/javascripts/my.js\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/main.css */ \"./src/stylesheets/main.css\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log('webpack!');\nObject(_my_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n\n//# sourceURL=webpack:///./src/javascripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my.js */ \"./src/javascripts/my.js\");\n/* harmony import */ var _stylesheets_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/main.scss */ \"./src/stylesheets/main.scss\");\n/* harmony import */ var _stylesheets_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_main_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log('webpack!');\nObject(_my_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n\n\n//# sourceURL=webpack:///./src/javascripts/main.js?");
 
 /***/ }),
 
@@ -110,14 +110,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./src/stylesheets/main.css":
-/*!**********************************!*\
-  !*** ./src/stylesheets/main.css ***!
-  \**********************************/
+/***/ "./src/stylesheets/main.scss":
+/*!***********************************!*\
+  !*** ./src/stylesheets/main.scss ***!
+  \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/stylesheets/main.css?");
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nSassError: Invalid CSS after \\\"        @extend\\\": expected selector, was \\\": NaNtitle;\\\"\\n        on line 31 of /Users/moriyamahiroshitooru/Dev/Udemy/Webpack/src/stylesheets/main.scss\\n>>         @extend: NaNtitle;\\n\\n   --------^\\n\\n    at /Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/webpack/lib/NormalModule.js:316:20\\n    at /Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/loader-runner/lib/LoaderRunner.js:367:11\\n    at /Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/loader-runner/lib/LoaderRunner.js:233:18\\n    at context.callback (/Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\\n    at Object.callback (/Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/sass-loader/dist/index.js:73:7)\\n    at Object.done [as callback] (/Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/neo-async/async.js:8067:18)\\n    at options.error (/Users/moriyamahiroshitooru/Dev/Udemy/Webpack/node_modules/node-sass/lib/index.js:294:32)\");\n\n//# sourceURL=webpack:///./src/stylesheets/main.scss?");
 
 /***/ })
 
