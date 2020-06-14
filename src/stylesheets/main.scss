@@ -20,7 +20,7 @@ $primary-color:lightblue;
         border:3px solid #ddd;
     }
     .title-lg {
-        @extend.title; //.titleの属性を引き継ぐ
+        @extend .title; //.titleの属性を引き継ぐ
         font-size: 32px;
     }
     .title-md {
@@ -28,7 +28,7 @@ $primary-color:lightblue;
         font-size:28px;
     }
     .title-sm{
-        @extend: NaNtitle;
+        @extend .title;
         font-size: 64px;
     }
     @include set-margin(right, 16px); //margin-right:16px;
